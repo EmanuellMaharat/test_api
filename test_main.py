@@ -14,9 +14,6 @@ def test_json():
     print(r)
 
 
-def test_content_type_equals_json():
-    response = requests.get("https://ivolunteer-app.herokuapp.com/")
-    assert response.headers["Content-Type"] == "application/json"
 
 
 
